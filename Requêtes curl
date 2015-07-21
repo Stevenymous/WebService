@@ -1,0 +1,30 @@
+Connaître la quantité de "After season 5" en stock 
+curl -XGET "http://shoppingservicemartinsnunes.appspot.com/shoppingservice/book?isbn=978-4-4582-6363-9"
+
+Connaître la quantité de "Prenez votre santé en main" en stock 
+curl -XGET "http://shoppingservicemartinsnunes.appspot.com/shoppingservice/book?isbn=978-5-1652-7854-7"
+
+Connaître la quantité de "Le charme discret de l'intestin" en stock 
+curl -XGET "http://shoppingservicemartinsnunes.appspot.com/shoppingservice/book?isbn=978-9-3524-7674-2"
+
+Connaître la quantité de "Antigone" en stock 
+curl -XGET "http://shoppingservicemartinsnunes.appspot.com/shoppingservice/book?isbn=978-8-4242-5324-5"
+
+Connaître la quantité de "Changez d'alimentation" en stock 
+curl -XGET "http://shoppingservicemartinsnunes.appspot.com/shoppingservice/book?isbn=979-7-2423-5332-9"
+
+
+Acheter le livre "After season 5" en 1 exemplaire
+curl -XGET "http://shoppingservicemartinsnunes.appspot.com/shoppingservice/buy?isbn=978-4-4582-6363-9&quantity=1"
+
+Acheter le livre "Prenez votre santé en main" en 3 exemplaires
+curl -XGET "http://shoppingservicemartinsnunes.appspot.com/shoppingservice/buy?isbn=978-5-1652-7854-7&quantity=3"
+
+Acheter le livre "Le charme discret de l'intestin" en 5 exemplaires
+curl -XGET "http://shoppingservicemartinsnunes.appspot.com/shoppingservice/buy?isbn=978-9-3524-7674-2&quantity=5"
+
+Acheter le livre "Antigone" en 10 exemplaires
+curl -XGET "http://shoppingservicemartinsnunes.appspot.com/shoppingservice/buy?isbn=978-8-4242-5324-5&quantity=10"
+
+Acheter le livre "Changez d'alimentation" en 15 exemplaires
+curl -XGET "http://shoppingservicemartinsnunes.appspot.com/shoppingservice/buy?isbn=979-7-2423-5332-9&quantity=15"
